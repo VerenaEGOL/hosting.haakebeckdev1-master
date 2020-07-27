@@ -1,0 +1,10 @@
+traefik.ymltls:
+  certificates:
+    - certFile: /certs/lamp-70-franziskaner-weissbier_de_cert.cer
+      keyFile: /certs/Farm-lamp70.key
+tls:
+  stores:
+    default:
+      defaultCertificate:
+        certFile: /certs/lamp-70-franziskaner-weissbier_de_cert.cer
+        keyFile: /certs/Farm-lamp70.key

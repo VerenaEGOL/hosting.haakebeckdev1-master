@@ -1,0 +1,14 @@
+{
+  "name": "haakebeckde",
+  "authors": [
+    "Christian Timm <christian@egol.de>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "moment": "^2.19.1"
+  }
+}

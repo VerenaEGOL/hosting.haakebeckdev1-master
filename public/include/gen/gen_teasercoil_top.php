@@ -1,0 +1,1 @@
+<img src="/images/design/elm_linie_top.png" class="elm_line_top" title="" alt="" /><img src="/images/design/line_left.png" class="elm_line_left" title="" alt="" /><img src="/images/design/line_right.png" class="elm_line_right" title="" alt="" />

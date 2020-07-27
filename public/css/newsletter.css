@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.grid-full {
+    width: 100%;
+    max-width: 710px;
+    float: left;
+    margin-bottom: 25px;
+    position: relative;
+}
+.nomarginbottom {
+    margin-bottom: 0px !important;
+}
+
+h4.claim {
+    font-size: 116%;
+    line-height: normal;
+    font-weight: normal;
+    padding-top: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.teaser_hirschecolumn {text-align: center;
+	margin-top: 10px;}
+h1.column {font-size:20px;}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a.text_link2 {
+	text-decoration: underline;
+	font-size: 12px;
+}
+.teaser {text-align:center;}
+.linelast {margin-top:3px;}
+.trennline {
+	background-image: url("http://www.diebels.de/images/design/trennline.png");
+	background-size: cover;
+	height: 1px;
+	width: 100%;
+}
+.linefirst {
+	margin-bottom: 4px;
+}
+.brandbar {
+	width: 100%;
+    height: 47px;
+    background-color: none;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.teaser_hirsche {
+	text-align: center;
+	margin-top: 10px;
+}
+.visual {
+	width: 100%;
+}
+.mainwrapper {
+	width: 100%;
+	
+	margin: auto;
+}
+h1 {
+	line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    word-wrap: break-word;
+    text-shadow: 0 1px 1px #00372c;
+    margin-bottom: 19px;
+    color: #ffffff;
+}
+.teaserinner {
+	height: auto;
+	padding-bottom: 30px;
+	padding-left: 36px;
+	padding-right: 36px;
+}
+h2 {
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	margin-bottom: 14px;
+	margin-top: 20px;
+	text-align: center;
+	text-shadow: -4px 3px 5px rgba(0, 0, 0, 0.5);
+	word-wrap: break-word;
+	font-weight:normal;
+}
+.yellow {
+	color: #FFFFFF;
+	font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 1px #00372c;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+a.regular {
+    background: rgb(207,13,56);
+    background: -moz-linear-gradient(top, rgba(207,13,56,1) 0%, rgba(186,10,49,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,13,56,1)), color-stop(100%,rgba(186,10,49,1)));
+    background: -webkit-linear-gradient(top, rgba(207,13,56,1) 0%,rgba(186,10,49,1) 100%);
+    background: -o-linear-gradient(top, rgba(207,13,56,1) 0%,rgba(186,10,49,1) 100%);
+    background: -ms-linear-gradient(top, rgba(207,13,56,1) 0%,rgba(186,10,49,1) 100%);
+    background: linear-gradient(to bottom, rgba(207,13,56,1) 0%,rgba(186,10,49,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf0d38', endColorstr='#ba0a31',GradientType=0 );
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.57);
+    border: 1px solid rgba(255,255,255,0.56);
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    transition: all 0.4s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+a.text_link2 {
+	text-decoration: underline;
+	font-size: 12px;
+}
+.coil_hirsche {
+	margin-bottom: 10px !important;
+}
+#sb-overlay {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@font-face {
+	font-family: 'impactregular';
+	src: url('http://www.diebels.de/font/impact-webfont.eot');
+	src: url('http://www.diebels.de/font/impact-webfont.eot?#iefix') format('embedded-opentype'), url('http://www.diebels.de/font/impact-webfont.woff') format('woff'), url('http://www.diebels.de/font/impact-webfont.ttf') format('truetype'), url('http://www.diebels.de/font/impact-webfont.svg#impactregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.elm_top_left {
+	top: 9px;
+	left: 9px;
+	position: absolute;
+}
+.elm_bottom_left {
+	bottom: 9px;
+	left: 9px;
+	position: absolute;
+}
+.elm_line_top {
+	width: calc(100% - 66px);
+	height: 15px;
+	margin-left: 33px;
+}
+
+.elm_line_top_col {
+	width: calc(100% - 66px);
+	height: 15px;
+	
+}
+.elm_line_bottom {
+	bottom: 5px;
+	height: 10px;
+	margin-left: -3px;
+	position: absolute;
+	width: calc(100% - 66px);
+}
+.elm_line_bottom_col {
+	bottom: -25px;
+	height: 10px;
+	margin-left: -3px;
+	position:relative;	
+	width: 102%;
+}
+.claim {
+	    margin: 0px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    color: #fff;
+    list-style: none;
+}
+.elm_top_right {
+	right: 9px;
+	top: 9px;
+	position: absolute;
+}
+.elm_bottom_right {
+	right: 9px;
+	bottom: 9px;
+	position: absolute;
+}
+.elm_line_left {
+	height: calc(100% - 59px);
+	left: 2px;
+	position: absolute;
+	top: 30px;
+	width: 17px;
+}
+.elm_line_right {
+	height: calc(100% - 59px);
+	right: 3px;
+	position: absolute;
+	top: 30px;
+	width: 17px;
+}
+.backgroundfull {
+    border: solid 4px #d41124;
+    margin-left: -3px;
+    margin-right: -3px;
+    background-color: rgba(107, 2, 2, 0.65);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.logo {
+	max-width: 295px;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.logowrapper {
+	width: 100%;
+	text-align: center;
+}
+.maintheme {
+
+	background-image: url("https://haake-beck.de/images/background/generic-background.jpg");
+	background-size: cover;
+    background-position: center center;
+    background-color: #000;
+    background-attachment: fixed;
+    transition: 1.2s;
+}
+/* Outlook link fix */
+#outlook a {
+	padding: 0;
+}
+/* Hotmail background & line height fixes */
+.ExternalClass {
+	width: 100% !important;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font,  .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+/* Image borders & formatting */
+img {
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+}
+a img {
+	border: none;
+}
+/* Re-style iPhone automatic links (eg. phone numbers) */
+.applelinks a {
+	color: #222222;
+	text-decoration: none;
+}
+/* Hotmail symbol fix for mobile devices */
+.ExternalClass img[class^=Emoji] {
+	width: 10px !important;
+	height: 10px !important;
+	display: inline !important;
+}
+		
+		
+		/* Media Query for mobile */
+		
+		@media screen and (max-width: 480px) {
+/* This resizes tables and images to be 100% wide with a proportionate width */
+table[class=emailwrapto100pc], img[class=emailwrapto100pc] {
+	width: 100% !important;
+	height: auto !important;
+}
+/* Hide stuff on mobiles */
+table[class=emailnomob], td[class=emailnomob], img[class=emailnomob], span[class=emailnomob] {
+	display: none !important;
+}
+td[class=emailcolsplit] {
+	width: 100%!important;
+	float: left!important;
+}
+a[class=emailmobbutton] {
+	display: block !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 6px 4px 8px 4px !important;
+	line-height: 18px !important;
+	background: #dddddd !important;
+	border-radius: 5px !important;
+	margin: 10px auto;
+	width: 70%;
+	text-align: center;
+	color: #111 !important;
+	text-decoration: none;
+	text-shadow: #fff 1px 0 0;
+}
+/* This resizes body text for mobiles */
+span[class=emailbodytext], a[class=emailbodytext] {
+	font-size: 16px !important;
+	line-height: 21px !important;
+}
+span[class=emailh2], a[class=emailh2] {
+	font-size: 22px !important;
+	line-height: 26px !important;
+}
+}
+		
+		/* Additional Media Query for tablets */
+		
+		@media screen and (min-width: 480px) and (max-width: 1024px) {
+/* Same as above */
+table[class=emailwrapto100pc], img[class=emailwrapto100pc] {
+	width: 100% !important;
+	height: auto !important;
+}
+/* Hide stuff on tablets */
+table[class=emailnomob], td[class=emailnomob], img[class=emailnomob], span[class=emailnomob] {
+	display: none !important;
+}
+/* Same as above - make the text larger on a tablet*/
+span[class=emailbodytext], a[class=emailbodytext] {
+	font-size: 16px !important;
+	line-height: 21px !important;
+}
+span[class=emailh2], a[class=emailh2] {
+	font-size: 22px !important;
+	line-height: 26px !important;
+}
+/*Same as above - make links into buttons*/
+a[class=emailmobbutton] {
+	display: block !important;
+	font-size: 14px !important;
+	font-weight: bold !important;
+	padding: 6px 4px 8px 4px !important;
+	line-height: 18px !important;
+	background: #dddddd !important;
+	border-radius: 5px !important;
+	margin: 10px auto;
+	width: 70%;
+	text-align: center;
+	color: #111 !important;
+	text-decoration: none;
+	text-shadow: #fff 1px 0 0;
+}
+}

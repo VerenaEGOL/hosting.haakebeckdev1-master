@@ -1,0 +1,1 @@
+DELETE FROM werder_kader_2017 where id = 25;

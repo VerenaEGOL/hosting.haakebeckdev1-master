@@ -1,0 +1,14 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "swiftmailer/swiftmailer": "^6.0",
+        "filp/whoops": "^2.1"
+    },
+    "config": {
+        "vendor-dir": "private/vendor"
+    },
+    "require-dev": {
+        "illuminate/support": "^5.5",
+        "symfony/var-dumper": "^3.3"
+    }
+}

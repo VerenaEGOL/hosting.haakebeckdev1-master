@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+.env
+private/vendor
+public/components
+docker-compose.yml
+certs/*.key
+certs/*.cer
+

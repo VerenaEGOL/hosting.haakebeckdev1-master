@@ -1,0 +1,16 @@
+.maintheme {
+background-image: url(/images/background/generic-background.jpg);
+background-size: cover;
+background-position: center center;
+background-color: #000;
+background-attachment: fixed;
+transition:1.2s;
+}
+.maintheme2 {
+background-image: url(/images/background/stock-background.jpg);
+/*background-size: cover;*/
+background-position: center center;
+background-color: #000;
+background-attachment: fixed;
+transition:1.2s;
+}
