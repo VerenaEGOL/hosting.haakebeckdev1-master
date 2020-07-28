@@ -1,0 +1,22 @@
+{
+  "name": "hosting.haakebeckdev1-master",
+  "version": "1.0.0",
+  "description": "### Set-up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerenaEGOL/hosting.haakebeckdev1-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerenaEGOL/hosting.haakebeckdev1-master/issues"
+  },
+  "homepage": "https://github.com/VerenaEGOL/hosting.haakebeckdev1-master#readme",
+  "dependencies": {
+    "bower": "^1.8.8"
+  }
+}

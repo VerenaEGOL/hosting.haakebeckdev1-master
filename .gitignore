@@ -6,4 +6,4 @@ public/components
 docker-compose.yml
 certs/*.key
 certs/*.cer
-
+node_modules
